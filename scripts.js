@@ -3,7 +3,7 @@ window.addEventListener('load', onVrViewLoad);
 function onVrViewLoad() {
     // Selector '#vrview' finds element with id 'vrview'.
     var vrView = new VRView.Player('#vrview', {
-        image:"https://images.unsplash.com/photo-1597172300672-dbcdf33ac44e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3546&q=80",
+        image:"https://images.unsplash.com/photo-1584184087921-b397a56c13c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3342&q=80",
     });
 
     vrView.on('click', function (event) {
